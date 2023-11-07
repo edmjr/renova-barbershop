@@ -20,7 +20,7 @@
 }
 
 .topo {
-    width: 100%;
+    width: 100vw;
     position: fixed;
     background-color: rgba(0, 0, 0, 0.9);
     z-index: 1;
@@ -279,4 +279,11 @@ svg:hover path{
     right: 5%;
     background-position: center;
     background-size: cover;
+}
+
+@media screen and (max-width:767px) {
+    
+}
+@media screen and (min-width:768px) and (max-width:1023px) {
+    
 }
