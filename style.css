@@ -280,6 +280,9 @@ svg:hover path{
     background-position: center;
     background-size: cover;
 }
+/*menu*/
+
+/*fim-menu*/
 /*letreiro*/
 @font-face {
     font-family: 'neontubes';
@@ -388,8 +391,14 @@ svg:hover path{
   /*fim do letreiro*/
 
 @media screen and (max-width:767px) {
-    
+    .main #aberto {
+        font-size: 26vw;}
+    .main #fechado {
+        font-size: 26vw;}
 }
 @media screen and (min-width:768px) and (max-width:1023px) {
-    
+    .main #aberto {
+        font-size: 16vw;}
+    .main #fechado {
+        font-size: 16vw;}
 }

@@ -135,36 +135,9 @@
             <span id="fechado">FECHADO</span>
        </div>
       </div>
-      <script language=javascript type="text/javascript">
-        function aberto(span) {
-            span.style.display = "block";
-        }
-
-        function fechado(span) {
-            span.style.display = "block";
-        }
-        const now = new Date();
-        const abertoSpan = document.getElementById("aberto");
-        const fechadoSpan = document.getElementById("fechado");
-
-        if (now.getDay() >= 2 && now.getDay() <= 5) {
-            if (now.getHours() >= 9 && now.getHours() < 18) {
-                aberto(abertoSpan);
-            } else {
-                fechado(fechadoSpan);
-            }
-        } else if (now.getDay() === 6) {
-            if (now.getHours() >= 8 && now.getHours() < 17) {
-                aberto(abertoSpan);
-            } else {
-                fechado(fechadoSpan);
-            }
-        } else {
-            fechado(fechadoSpan);
-        }
-
-        </script>
+      <script src="script.js"></script>
     </div>
+    
     <div class="container-rodape"> <!-- Rodapé da página -->
       <p>&copy; Renova Barbershop - Todos os direitos reservados</p>
       <p>Desenvolvido por <span>Edmilson Jr</span></p>
