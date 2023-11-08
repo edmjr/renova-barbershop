@@ -401,6 +401,12 @@ svg:hover path{
       top: 88%;
       font-size: 30px;
     }
+    #menu{
+      display: none;
+    }
+    .container-rodape a{
+      right: 2%;
+    }
     .main #aberto {
         font-size: 16vw;
         top: 70%;
@@ -429,6 +435,12 @@ svg:hover path{
   .container-parallax1 h1{
     top: 90%;
     font-size: 30px;
+  }
+  #menu{
+    display: none;
+  }
+  .container-rodape a{
+    right: 2%;
   }
     .main #aberto {
         font-size: 16vw;
