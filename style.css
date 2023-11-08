@@ -128,6 +128,8 @@
 .container-parallax4 iframe {
     position: absolute;
     top: 35%;
+    width: 700;
+    height: 350;
     left: 0;
     right: 0;
     margin: auto;
@@ -396,9 +398,24 @@ svg:hover path{
         top: 70%;
         right: 40%;}
     .main #fechado {
-        font-size: 20vw;
+        font-size: 16vw;
         top: 70%;
         right: 40%;}
+    .container-parallax4 iframe {
+      top: 35%;
+      width: 350px;
+      height: 175px;
+      left: 0;
+      right: 0;
+      }
+    .container-contatos {
+      width: 300px;
+   }
+    .container-parallax4 h2 {
+    width: 300px;}
+    .container-parallax4 h2{
+      font-size: 70px;
+    }
 }
 @media screen and (min-width:768px) and (max-width:1023px) {
     .main #aberto {
@@ -407,4 +424,12 @@ svg:hover path{
     .main #fechado {
         font-size: 14vw;
         right: 11vw;}
+    .container-parallax4 iframe {
+      top: 35%;
+      width: 350;
+      height: 175;
+      left: 0;
+      right: 0;
+
+      }
 }
