@@ -392,13 +392,19 @@ svg:hover path{
 
 @media screen and (max-width:767px) {
     .main #aberto {
-        font-size: 26vw;}
+        font-size: 16vw;
+        top: 70%;
+        right: 40%;}
     .main #fechado {
-        font-size: 26vw;}
+        font-size: 20vw;
+        top: 70%;
+        right: 40%;}
 }
 @media screen and (min-width:768px) and (max-width:1023px) {
     .main #aberto {
-        font-size: 16vw;}
+        font-size: 16vw;
+        right: 11vw;}
     .main #fechado {
-        font-size: 16vw;}
+        font-size: 14vw;
+        right: 11vw;}
 }
