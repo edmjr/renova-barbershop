@@ -8,7 +8,7 @@
     scroll-margin-top: 104px;
   }
 
-  .bg_video{
+  .container-parallax1 video{
   position: absolute;
   right: 0;
   bottom: 0;
@@ -37,12 +37,13 @@
     position: fixed;
     background-color: rgba(0, 0, 0, 0.9);
     z-index: 1;
+    color: white;
 }
 
 .topo img {
     width: 100px;
     position: relative;
-    left: 15%;
+/*    left: 15%;*/
 }
 
 .topo div {
