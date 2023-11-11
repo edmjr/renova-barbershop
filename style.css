@@ -65,7 +65,7 @@
 
 /* Container Parallax 1 */
 .container-parallax1 {
-    background-image: url("/img/logo.jpeg");
+    background-image: url("/img/foto1.jpg");
      z-index: -1000;
     height: 100vh;
 }
