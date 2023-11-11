@@ -65,10 +65,11 @@
 
 /* Container Parallax 1 */
 .container-parallax1 {
-    background-image: url("/img/foto1.jpg");
+    background-image: url("/img/logo.jpeg");
      z-index: -1000;
     height: 100vh;
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .container-parallax1 h1 {
