@@ -25,6 +25,9 @@
   justify-content: center;
   flex-wrap: wrap;
 }
+figcaption{
+  text-align: center;
+}
 figure{
   display: flex;
   width: 180px;
