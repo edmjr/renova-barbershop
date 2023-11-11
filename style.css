@@ -402,6 +402,12 @@ svg:hover path{
       top: 88%;
       font-size: 30px;
     }
+    .container-parallax1 video{
+      background-image: none;
+    }
+    .topo img {
+      left: 0;
+  }
     #menu{
       display: none;
     }
