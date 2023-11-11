@@ -26,8 +26,11 @@
   flex-wrap: wrap;
 }
 figure{
-  width: 200px;
+  display: flex;
+  width: 180px;
   margin: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 figure img{
   background-color: white;
