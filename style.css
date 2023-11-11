@@ -410,8 +410,12 @@ svg:hover path{
       width: 70px;
       left: 0;
   }
-    #menu{
+    /*#menu{
       display: none;
+    }*/
+    .topo div a{
+      font-size: 12px;
+      align-items: flex-end;
     }
     .container-rodape a{
       right: 2%;
@@ -445,9 +449,13 @@ svg:hover path{
     top: 90%;
     font-size: 30px;
   }
-  #menu{
-    display: none;
-  }
+  /*#menu{
+      display: none;
+    }*/
+    .topo div a{
+      font-size: 12px;
+      align-items: flex-end;
+    }
   .container-rodape a{
     right: 2%;
   }
