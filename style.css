@@ -68,6 +68,7 @@
     background-image: url("/img/foto1.jpg");
      z-index: -1000;
     height: 100vh;
+    background-size: contain;
 }
 
 .container-parallax1 h1 {
