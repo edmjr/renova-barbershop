@@ -65,12 +65,9 @@
 
 /* Container Parallax 1 */
 .container-parallax1 {
-    background-image: url("/img/collage.png");
     background-color: #000000;
-     z-index: -1000;
+    z-index: -1000;
     height: 100vh;
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
 .container-parallax1 h1 {
