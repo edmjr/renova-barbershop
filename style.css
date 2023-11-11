@@ -402,6 +402,13 @@ svg:hover path{
   :target {
     scroll-margin-top: 74px;
   }
+  .lista-horarios{
+    left: 2%;
+    right: 2%;
+  }
+  .lista-horarios li div{
+    width: 50%;
+  }
     .container-parallax1 h1{
       top: 88%;
       font-size: 30px;
