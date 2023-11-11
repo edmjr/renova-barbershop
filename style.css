@@ -66,6 +66,7 @@
 /* Container Parallax 1 */
 .container-parallax1 {
     background-image: url("/img/collage.png");
+    background-color: #000000;
      z-index: -1000;
     height: 100vh;
     background-size: contain;
@@ -182,6 +183,7 @@
     letter-spacing: 1px;
     text-align: center;
     color: #666;
+    background-color: black;
 }
 
 .container-texto h2 {
@@ -408,6 +410,7 @@ svg:hover path{
       background-image: none;
     }
     .topo img {
+      width: 70px;
       left: 0;
   }
     #menu{
