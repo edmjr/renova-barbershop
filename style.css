@@ -441,6 +441,7 @@ figure img{
     .topo img {
       width: 70px;
       left: 0;
+      margin-left: 20px;
   }
     /*#menu{
       display: none;
