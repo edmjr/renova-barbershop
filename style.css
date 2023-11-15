@@ -478,6 +478,11 @@ figure img{
     .container-parallax4 h2{
       font-size: 20px;
     }
+    @supports ( -webkit-touch-callout : none) {
+      .container-parallax4 {
+      background-attachment:scroll
+      }
+      }
 /*    .container-parallax4:after{
       content:"";
       position:fixed; 
