@@ -7,16 +7,7 @@
 :target {
     scroll-margin-top: 104px;
   }
-  /*bloquear rotação*/
-  .orientleft #shell {
-    -webkit-transform: rotate(-90deg);
-    -webkit-transform-origin:160px 160px;
-}
 
-.orientright #shell {
-    -webkit-transform: rotate(90deg);
-    -webkit-transform-origin:230px 230px;
-} 
 
   .container-parallax1 video{
   position: absolute;

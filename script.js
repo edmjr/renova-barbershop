@@ -1,19 +1,6 @@
 //inicio-menu//
 
 //fim-menu//
-//bloquear rotação inicio//
-window.addEventListener('orientationchange', function () {
-    if (window.orientation == -90) {
-        document.getElementById('orient').className = 'orientright';
-    }
-    if (window.orientation == 90) {
-        document.getElementById('orient').className = 'orientleft';
-    }
-    if (window.orientation == 0) {
-        document.getElementById('orient').className = '';
-    }
-}, true);
-//bloquear rotação fim//
 //inicio-letreiro//
 function aberto(span) {
     span.style.display = "block";
