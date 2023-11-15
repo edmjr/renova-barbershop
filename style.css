@@ -514,3 +514,6 @@ figure img{
 
       }
 }
+@supports (-webkit-overflow-scrolling: touch) {
+ 	body *: { 		background-attachment: scroll; 	} 
+}
