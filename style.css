@@ -473,12 +473,6 @@ figure img{
     .container-contatos {
       width: 350px;
    }
-   /*.container-parallax4{
-    background-attachment:scroll;
-   }
-   .container-parallax5{
-    background-attachment:scroll;
-   }*/
     .container-parallax4 h2 {
     width: 300px;}
     .container-parallax4 h2{
@@ -515,5 +509,10 @@ figure img{
       }
 }
 @supports (-webkit-overflow-scrolling: touch) {
- 	body *: { 		background-attachment: scroll; 	} 
+ 	   .container-parallax4{
+    background-attachment:scroll;
+   }
+   .container-parallax5{
+    background-attachment:scroll;
+   }
 }
