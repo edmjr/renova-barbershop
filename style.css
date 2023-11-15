@@ -478,20 +478,20 @@ figure img{
     .container-parallax4 h2{
       font-size: 20px;
     }
-    .container-parallax4:after{
+/*    .container-parallax4:after{
       content:"";
-      position:fixed; /* stretch a fixed position to the whole screen */
+      position:fixed; 
       top:0;
-      height:100vh; /* fix for mobile browser address bar appearing disappearing */
+      height:100vh; 
       left:0;
       right:0;
-      z-index:-1; /* needed to keep in the background */
+      z-index:-1; 
       background: url("img/parallax-imagem4.png") center center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-}
+}*/
 }
 @media screen and (min-width:768px) and (max-width:1023px) {
   .container-parallax1 h1{
