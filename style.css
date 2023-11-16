@@ -480,9 +480,15 @@ figure img{
       font-size: 20px;
     }
     @supports ( -webkit-touch-callout : none) {
-      .container-parallax4 {
-        background: url('img/parallax-imagem4.png') center top no-repeat scroll;
-        background-size: auto 100vh;
+      .sticky {
+        margin-top: -100vh;
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(45deg, red, blue);
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+        z-index: 0;
       }
       }
 /*    .container-parallax4:after{
